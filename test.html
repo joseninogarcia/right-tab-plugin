@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Slider Test jQuery</title>
+  <script type="text/javascript" language="javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" language="javascript" src="js/rightTabPlugin.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/rightTabPlugin.css" />
+  <script>
+  	$(document).ready(function(){
+		$("div#tabLists").rightTabLinks();
+	});
+  </script>
+</head>
+<body>
+    <div id="tabData">
+    	<ul>
+        	<li><a href="#" id="tab1">Tab 1</a></li>
+            <li><a href="#" id="tab2">Tab 2</a></li>
+            <li><a href="#" id="tab3">Tab 3</a></li>
+        </ul>
+        <div class="tbclr"></div>
+    </div><!-- tabData -->
+    
+    
+    <div id="tabLists">
+    	<ul>
+        	<li><span>This is a test 1 </span></li>
+            <li><span>This is a test 2</span></li>
+            <li><span>This is a test 3</span></li>
+        </ul>
+        <div class="tbclr"></div>
+    </div><!-- tabLists -->
+</body>
+</html>

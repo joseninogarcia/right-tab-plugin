@@ -1,0 +1,59 @@
+/* CSS for rightTabPlugin */
+
+
+.tbclr
+{
+	clear:both;	
+}
+
+#tabData
+{
+		
+}
+
+#tabData ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+
+
+#tabData li
+{
+	float:left;	
+	margin-right:10px;
+}
+
+#tabLists
+{
+	width:600px;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+
+#tabLists ul
+{
+	list-style:none;
+	width:10000px;
+	padding:0;
+}
+
+#tabLists li
+{
+	float:left;	
+}
+
+#tabLists li span
+{
+	width:600px;
+	height:280px;
+	background:#036;	
+	display:block;	
+}
+
+.current
+{
+	color:#963;	
+}
